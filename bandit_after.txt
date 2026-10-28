@@ -1,4 +1,21 @@
-Run started:2026-10-28 03:19:08.260868+00:00
+﻿bandit : [main]	INFO	profile include 
+tests: None
+At line:2 char:1
++ bandit .\energy_system.py 2>&1 | 
+Out-File -FilePath .\bandit_after.tx ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecif 
+   ied: ([main]	INFO	profile include t  
+  ests: None:String) [], RemoteExcept   
+ ion
+    + FullyQualifiedErrorId : NativeCom 
+   mandError
+ 
+[main]	INFO	profile exclude tests: None
+[main]	INFO	cli include tests: None
+[main]	INFO	cli exclude tests: None
+[main]	INFO	running on Python 3.11.9
+Run started:2026-10-28 03:36:32.725767+00:00
 
 Test results:
 	No issues identified.
